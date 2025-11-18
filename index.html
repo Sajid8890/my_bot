@@ -281,12 +281,12 @@ const config = {
     wsEndpoint: 'wss://fstream.binance.com/ws',
     coinsFilePath: './coins.txt',
     priceChangeThreshold: 10.0,
-    rsiInterval: 500,
+    rsiInterval: 250,
     sortBy: 'rsi',
     httpFilterBatchSize: 100,
     httpFilterBatchDelay: 100,
     backgroundFilterInterval: 120000,
-    rsiNotificationThreshold: 70
+    rsiNotificationThreshold: 80
 };
 
 // --- CORE LOGIC & NOTIFICATIONS ---
@@ -727,3 +727,4 @@ document.getElementById('notifiedList').addEventListener('click', (event) => {
     </script>
 </body>
 </html>
+
